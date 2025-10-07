@@ -6,8 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -std=c++17")
 
 set(SRC_CPP_API
-    *.cpp
-    # Vector3.cpp
+    Vector3.cpp
     # Matrix33.cpp
 )
 
