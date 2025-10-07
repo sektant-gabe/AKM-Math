@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-namespace API
+namespace AKM
 {
     // Constructors
     Vector3::Vector3()
@@ -215,4 +215,4 @@ namespace API
         os << "[" << obj.x << ", " << obj.y << ", " << obj.z << "]";
         return os;
     }
-} // namespace API
+} // namespace AKM

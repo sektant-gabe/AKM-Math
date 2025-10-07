@@ -1,14 +1,15 @@
 cmake_minimum_required (VERSION 3.5)
 
-project(API_Example)
+project(AKMath_Example)
 
 add_executable(${PROJECT_NAME}
     main.cpp
+    # Vector3Example.cpp
 )
 
 target_link_libraries(
     ${PROJECT_NAME}
-    API
+    AKMath
 )
 
 install(TARGETS ${PROJECT_NAME}

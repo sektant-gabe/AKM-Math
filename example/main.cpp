@@ -1,4 +1,4 @@
-#include "API.h"
+#include "AKMath.h"
 #include "Vector3.h"
 #include <iostream>
 // #include <algorithm>
@@ -16,7 +16,7 @@ inline void KeepWindowOpen()
 
 int main()
 {
-    API::Vector3 vec{0.0, 0.0, 1.0};
+    AKM::Vector3 vec{0.0, 0.0, 1.0};
     cout << vec;
     KeepWindowOpen();
     return 0;

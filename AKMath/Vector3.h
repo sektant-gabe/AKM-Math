@@ -1,9 +1,9 @@
-#ifndef API_VECTOR3_H
-#define API_VECTOR3_H
+#ifndef AKM_VECTOR3_H
+#define AKM_VECTOR3_H
 
 #include <iostream>
 
-namespace API
+namespace AKM
 {
     class Vector3
     {
@@ -95,6 +95,6 @@ namespace API
 
     // Stream Functions
     std::ostream& operator<<(std::ostream& os, const Vector3& obj);
-} // namespace API
+} // namespace AKM
 
-#endif // API_VECTOR3_H
+#endif // AKM_VECTOR3_H

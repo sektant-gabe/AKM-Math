@@ -1,7 +1,7 @@
 #include "Vector3.h"
 #include "catch/catch.hpp"
 
-using namespace API;
+using namespace AKM;
 
 TEST_CASE("Vector3 Constructors", "[Vector3]")
 {

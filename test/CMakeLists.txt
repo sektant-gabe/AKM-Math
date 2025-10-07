@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5)
 
-project(API_Test)
+project(AKMath_Test)
 
 add_executable(${PROJECT_NAME}
   main.cpp
@@ -11,7 +11,7 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries(
   ${PROJECT_NAME}
-  API
+  AKMath
 )
 
 install(TARGETS ${PROJECT_NAME}
