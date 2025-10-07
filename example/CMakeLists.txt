@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5)
 
-project(AKMath_Example)
+project(akmMath_Example)
 
 add_executable(${PROJECT_NAME}
     main.cpp
@@ -9,7 +9,7 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries(
     ${PROJECT_NAME}
-    AKMath
+    akmMath
 )
 
 install(TARGETS ${PROJECT_NAME}

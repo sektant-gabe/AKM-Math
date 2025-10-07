@@ -1,5 +1,4 @@
-#include "AKMath.h"
-#include "Vector3.h"
+#include "akmMath.h"
 #include <iostream>
 // #include <algorithm>
 // #include <cmath>

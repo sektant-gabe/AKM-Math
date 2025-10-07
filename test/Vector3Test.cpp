@@ -1,4 +1,4 @@
-#include "Vector3.h"
+#include "akmMath.h"
 #include "catch/catch.hpp"
 
 using namespace AKM;

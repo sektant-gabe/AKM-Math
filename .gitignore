@@ -6,6 +6,9 @@
 *.idea
 *.vscode
 
+# Source Files
+# *.cpp
+
 # Compiled Object files
 *.slo
 *.lo
