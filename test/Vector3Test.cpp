@@ -1,4 +1,4 @@
-#include "akmMath.h"
+#include "Math.h"
 #include "catch/catch.hpp"
 
 using namespace AKM;

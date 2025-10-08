@@ -1,12 +1,10 @@
-#ifndef AKM_MATRIX33_H
-#define AKM_MATRIX33_H
+#ifndef MATRIX33_H
+#define MATRIX33_H
 
 #include "Vector3.h"
 
 namespace AKM
 {
-    class Vector3;
-
     class Matrix33
     {
     public:

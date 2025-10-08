@@ -1,5 +1,5 @@
-#ifndef AKM_VECTOR3_H
-#define AKM_VECTOR3_H
+#ifndef VECTOR3_H
+#define VECTOR3_H
 
 #include <iostream>
 
@@ -97,4 +97,4 @@ namespace AKM
     std::ostream& operator<<(std::ostream& os, const Vector3& obj);
 } // namespace AKM
 
-#endif // AKM_VECTOR3_H
+#endif // VECTOR3_H
